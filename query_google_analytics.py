@@ -63,7 +63,7 @@ DATASET_NAME = config['bq_import']['DATASET_NAME']
 TABLE_NAME = config['bq_import']['TABLE_NAME']
 
 #### GCS CONFIG ####
-BUCKET_NAME = 'thailife-tmp'
+BUCKET_NAME = '<bucket_name>'
 BUCKET_FOLDER = f'{TABLE_NO}/'
 
 
